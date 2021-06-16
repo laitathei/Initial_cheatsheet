@@ -26,6 +26,10 @@ sudo apt install ffmpeg
 sudo apt-get install ubuntu-restricted-extras
 sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
 sudo apt-get install ros-melodic-joint-state-publisher-gui
+sudo apt-get install ros-melodic-turtlebot*
+sudo apt-get install ros-melodic-gmapping
+sudo apt-get install ros-melodic-turtlebot3-teleop
+sudo apt-get install ros-melodic-rtabmap ros-melodic-rtabmap-ros
 ehco "Finish download ROS bag required extra package"
 
 ehco "Download tmux package"

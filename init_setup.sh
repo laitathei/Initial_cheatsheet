@@ -21,7 +21,7 @@ echo "Finish download Gazebo 9 version  "
 sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control
 echo "Download Gazebo 9 version  "
 
-ehco "Download ROS bag required extra package"
+echo "Download ROS bag required extra package"
 sudo apt install ffmpeg
 sudo apt-get install ubuntu-restricted-extras
 sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
@@ -30,32 +30,32 @@ sudo apt-get install ros-melodic-turtlebot*
 sudo apt-get install ros-melodic-gmapping
 sudo apt-get install ros-melodic-turtlebot3-teleop
 sudo apt-get install ros-melodic-rtabmap ros-melodic-rtabmap-ros
-ehco "Finish download ROS bag required extra package"
+echo "Finish download ROS bag required extra package"
 
-ehco "Download tmux package"
+echo "Download tmux package"
 sudo apt install tmux
-ehco "Finish download tmux package"
+echo "Finish download tmux package"
 
 ehco "Download ROS-Hector package"
 sudo apt-get install ros-melodic-hector-sensors-description
 sudo apt-get install ros-melodic-hector-slam
 ehco "Finish download ROS-Hector package"
 
-ehco "Download ROS keyboard control package"
+echo "Download ROS keyboard control package"
 sudo apt-get install ros-melodic-teleop-twist-keyboard
-ehco "Finish download ROS keyboard control package"
+echo "Finish download ROS keyboard control package"
 
 echo "Download GDAL libraries package"
 sudo apt-get install gdal-bin libgdal-dev python-gdal
 echo "Finish download GDAL libraries package"
 
-ehco "Download Kinectv2 package"
+echo "Download Kinectv2 package"
 sudo apt-get install build-essential cmake pkg-config libturbojpeg libjpeg-turbo8-dev mesa-common-dev freeglut3-dev libxrandr-dev libxi-dev 
 sudo apt-get install libglfw3-dev
 sudo apt-get install libopenni2-dev
 sudo apt-get install libusb-1.0-0-dev
 sudo apt-get install libturbojpeg0-dev
-ehco "Finish download Kinectv2 package"
+echo "Finish download Kinectv2 package"
 
 echo "Download IntelRealsense SDK package"
 sudo apt-key adv --keyserver keys.gnupg.net --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE

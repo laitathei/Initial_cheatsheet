@@ -35,6 +35,8 @@ sudo apt-get install ros-melodic-octomap-mapping
 sudo apt-get install ros-melodic-octomap-rviz-plugins
 sudo apt-get install ros-melodic-octomap-ros
 sudo apt-get install ros-melodic-octomap-server
+sudo apt-get install ros-melodic-apriltag-ros
+sudo apt-get install ros-melodic-find-object-2d
 sudo apt-get install ros-melodic-rtabmap ros-melodic-rtabmap-ros
 echo "Finish download ROS bag required extra package"
 

@@ -22,7 +22,7 @@ sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control
 echo "Download Gazebo 9 version  "
 
 echo "Download ROS bag required extra package"
-sudo apt install ffmpeg
+sudo apt-get install ffmpeg
 sudo apt-get install ubuntu-restricted-extras
 sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
 sudo apt-get install ros-melodic-joint-state-publisher-gui
@@ -37,6 +37,7 @@ sudo apt-get install ros-melodic-octomap-ros
 sudo apt-get install ros-melodic-octomap-server
 sudo apt-get install ros-melodic-apriltag-ros
 sudo apt-get install ros-melodic-find-object-2d
+sudo apt-get install ros-melodic-map-*
 sudo apt-get install ros-melodic-rtabmap ros-melodic-rtabmap-ros
 echo "Finish download ROS bag required extra package"
 

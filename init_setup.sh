@@ -10,11 +10,11 @@ echo "Finish download Chinese input  "
 echo "Download ROS-melodic version  "
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
-sudo apt install ros-melodic-desktop-full
+sudo apt-get install ros-melodic-desktop-full
 rosdep init
 rosdep update
 sudo apt-get install ros-melodic-catkin python-catkin-tools
-sudo apt install ros-melodic-mavros ros-melodic-mavros-extras
+sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
 echo "Finish download ROS-melodic version  "
 
 echo "Finish download Gazebo 9 version  "
@@ -45,10 +45,10 @@ echo "Download tmux package"
 sudo apt install tmux
 echo "Finish download tmux package"
 
-ehco "Download ROS-Hector package"
+echo "Download ROS-Hector package"
 sudo apt-get install ros-melodic-hector-sensors-description
 sudo apt-get install ros-melodic-hector-slam
-ehco "Finish download ROS-Hector package"
+echo "Finish download ROS-Hector package"
 
 echo "Download ROS keyboard control package"
 sudo apt-get install ros-melodic-teleop-twist-keyboard

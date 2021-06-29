@@ -23,6 +23,7 @@ echo "Download Gazebo 9 version  "
 
 echo "Download ROS bag required extra package"
 sudo apt-get install ffmpeg
+sudo apt-get install python-rosinstall
 sudo apt-get install ubuntu-restricted-extras
 sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
 sudo apt-get install ros-melodic-joint-state-publisher-gui

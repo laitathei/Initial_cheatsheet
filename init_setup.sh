@@ -30,6 +30,7 @@ sudo apt-get install ros-melodic-hector-gazebo-plugins
 sudo apt-get install ros-melodic-turtlebot*
 sudo apt-get install ros-melodic-gmapping
 sudo apt-get install ros-melodic-turtlebot3-teleop
+sudo apt-get install ros-melodic-navigation
 sudo apt-get install ros-melodic-octomap
 sudo apt-get install ros-melodic-octomap-mapping
 sudo apt-get install ros-melodic-octomap-rviz-plugins

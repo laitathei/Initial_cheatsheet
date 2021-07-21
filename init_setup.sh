@@ -19,9 +19,9 @@ sudo apt-get install ros-melodic-catkin python-catkin-tools
 sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
 echo "Finish download ROS-melodic version  "
 
-echo "Finish download Gazebo 9 version  "
-sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control
 echo "Download Gazebo 9 version  "
+sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control
+echo "Finish download Gazebo 9 version  "
 
 echo "Download ROS bag required extra package"
 sudo apt-get install ffmpeg

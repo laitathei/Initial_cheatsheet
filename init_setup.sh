@@ -28,6 +28,7 @@ sudo apt-get install ffmpeg
 sudo apt-get install python-rosinstall
 sudo apt-get install ubuntu-restricted-extras
 sudo apt-get install ros-melodic-ros-control ros-melodic-ros-controllers
+sudo apt-get install ros-melodic-image-transport ros-melodic-vision-msgs
 sudo apt-get install ros-melodic-joint-state-publisher-gui
 sudo apt-get install ros-melodic-hector-gazebo-plugins
 sudo apt-get install ros-melodic-turtlebot*

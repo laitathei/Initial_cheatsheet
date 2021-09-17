@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 echo "Download Chinese input  "
-sudo apt-get install fcitx
+sudo apt-get install ibus-table-quick
 echo "Finish download Chinese input  "
 
 echo "Download ROS-melodic version  "
